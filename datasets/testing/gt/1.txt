@@ -1,0 +1,24 @@
+PS D:\Company Projects\estimatepro-ai> & "D:/Company Projects/estimatepro-ai/venv/Scripts/Activate.ps1"
+(venv) PS D:\Company Projects\estimatepro-ai> & "D:/Company Projects/estimatepro-ai/venv/Scripts/python.exe" "d:/Company Projects/estimatepro-ai/estimatepro-ai/ai_jobs/ocr.py"
+
+✅ OCR Result:
+ {
+  "rooms": [
+    {
+      "type": "Master Bedroom",
+      "area_sqm": 27.73        
+    },
+    {
+      "type": "Kitchen",       
+      "area_sqm": 13.38        
+    },
+    {
+      "type": "2 Car Garage",  
+      "area_sqm": 49.58
+    },
+    {
+      "type": null,
+      "area_sqm": null
+    }
+  ]
+}
